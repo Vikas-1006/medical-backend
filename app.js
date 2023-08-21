@@ -9,7 +9,7 @@ const globalErrorHandler = require('./helpers/error-handler');
 
 // socket.io connection
 const io = require('socket.io')(server, {
-  cors: 'localhost:3000',
+  cors: 'https://medical-frontend-bay.vercel.app',
 });
 
 // cor
